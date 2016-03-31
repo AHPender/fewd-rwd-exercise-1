@@ -29,6 +29,16 @@ body {
   max-width: 64em;
 }
 
+#contact-bar {
+  width: 100vw;
+  height: 15vw;
+  background-color: black;
+}
+
+.open {
+
+}
+
 
 /*  ================ Headings ================ */
 
@@ -188,7 +198,7 @@ div#webtech p {
 /*  =========== CSS pattern from http://lea.verou.me/css3patterns/ =========== */
 
 .cross {
-background: 
+background:
 radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
 radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
 linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
