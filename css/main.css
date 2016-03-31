@@ -24,19 +24,23 @@ body {
                           Helvetica,
                           Arial,
                           sans-serif;
-  margin: 2em auto;
+  margin: 0 auto;
   padding: 0 1em;
   max-width: 64em;
 }
 
 #contact-bar {
   width: 100vw;
-  height: 15vw;
+  height: 200px;
   background-color: black;
 }
 
-.open {
+.close {
+  margin-top: -200px;
+}
 
+.open {
+  margin-top: 0;
 }
 
 
