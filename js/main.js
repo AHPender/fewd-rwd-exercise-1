@@ -32,7 +32,7 @@ function handler() {
 
   else {
 
-  myContactBar.classList.remove('open');
-  myContactBar.classList.add('close');
+    myContactBar.classList.remove('open');
+    myContactBar.classList.add('close');
   }
 }
