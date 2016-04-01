@@ -26,13 +26,13 @@ function handler() {
 
   if (myContactBar.classList.contains('close')) {
 
-  myContactBar.classList.add('open');
   myContactBar.classList.remove('close');
+  myContactBar.classList.add('open');
   }
 
   else {
 
   myContactBar.classList.remove('open');
   myContactBar.classList.add('close');
-   }
+  }
 }
