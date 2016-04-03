@@ -30,17 +30,26 @@ body {
 }
 
 #contact-bar {
-  height: 7em;
-  background-color: black;
+  height: 50vh;
+  background-color: grey;
 }
 
 .close {
-  margin-top: -7em;
+  margin-top: -50vh;
 }
 
 .open {
   margin-top: 0;
 }
+
+/*@media (min-width: 64em) {
+  #contact-bar {
+    height: 7em;
+  }
+  .close {
+    margin-top: -7em;
+  }
+}*/
 
 
 /*  ================ Headings ================ */
@@ -110,7 +119,7 @@ a.active {
 
 /* put logo and navigation side-by-side on larger screens */
 
-@media (min-width: 32em) {
+@media (min-width: 48em) {
 
   header img {
     float: left;
