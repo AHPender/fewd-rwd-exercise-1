@@ -30,12 +30,12 @@ body {
 }
 
 #contact-bar {
-  height: 200px;
+  height: 7em;
   background-color: black;
 }
 
 .close {
-  margin-top: -200px;
+  margin-top: -7em;
 }
 
 .open {
