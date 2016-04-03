@@ -1,9 +1,9 @@
 var parent = document.querySelector("ul");
 var myNavitems = document.querySelectorAll('li a');
 
-parent.addEventListener("click", handler, false);
+parent.addEventListener("click", handlerActive, false);
 
-function handler(e) {
+function handlerActive(e) {
 
   if (e.target !== e.currentTarget) {
 
@@ -15,4 +15,24 @@ function handler(e) {
    }
 
   e.stopPropagation();
+}
+
+var myContactBar = document.getElementById('contact-bar');
+var myContactNavItem = document.querySelector('[href="#contact"]');
+
+myContactNavItem.addEventListener("click", handlerContactBar, false);
+
+function handlerContactBar() {
+
+  if (myContactBar.classList.contains('close')) {
+
+  myContactBar.classList.remove('close');
+  myContactBar.classList.add('open');
+  }
+
+  else {
+
+    myContactBar.classList.remove('open');
+    myContactBar.classList.add('close');
+  }
 }
