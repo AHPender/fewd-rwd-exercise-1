@@ -30,12 +30,12 @@ body {
 }
 
 #contact-bar {
-  height: 50vh;
+  height: 15vh;
   background-color: grey;
 }
 
 .close {
-  margin-top: -50vh;
+  margin-top: -15vh;
 }
 
 .open {
@@ -189,11 +189,18 @@ div#webtech p {
 
 
 /*  ================ Basic grid ================ */
-
+/*
 [class*='col-'] {
   margin: 1em 0 0;
   text-align: center;
-}
+}*/
+
+
+#contact-bar [class*='col-'] {
+  margin-top: 0;
+  padding: 1em 0;
+  }
+
 
 @media (min-width: 62em) {
   [class*='col-'] {
