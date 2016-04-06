@@ -48,7 +48,7 @@ body {
   transition: margin-top .3s ease-out;
 }
 
-*@media (min-width: 64em) {
+@media (min-width: 64em) {
   #contact-bar {
     height: 7em;
   }
